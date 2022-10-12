@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<body>
+ <nav>
+        <div class="nav-wrapper teal">
+          <a href="#" class="brand-logo  center">Assignment II </a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <a href="{{url_for('logout')}}">Logout</a>
+        </ul>
+        </div>
+      </nav>
+      <br><br>
+      <div class="row">
+        <div class="col s12 m6 offset-m3">
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title center"> <h5>Profile</h5> </span>
+
+                    <div class="row">
+                        <div class="col s6">
+                            <span> <b> username : </b> &emsp; <b>{{user.username}}</b> </span>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col s6">
+                            <span> <b> First Name : </b> &emsp; <b>{{user.first_name}}</b> </span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col s6">
+                            <span> <b> Last Name :  </b> &emsp;  <b> {{user.last_name}}</b>  </span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col s6">
+                            <span> <b> Age : </b> &emsp;  <b> {{user.age}} </b>  </span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col s6">
+                            <span> <b> Phone : </b>  &emsp; <b>{{user.phone}} </b>  </span>
+                        </div>
+                    </div>
+
+
+                    <div class="row" >
+                        <div class="col s3 l2">
+                            <span class="black-text"> <b> session : </b>     </span>
+                        </div>
+                        <div class="col s6" >
+                            <textarea name="" id="" cols="30" rows="40" style="height: 7rem !important;" >{{session}}</textarea>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+              </div>
+
+        </div>
+      </div>
+
+
+</body>
+
+</html>
