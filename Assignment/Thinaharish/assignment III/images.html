@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <link rel="stylesheet" href="https://s3.au-syd.cloud-object-storage.appdomain.cloud/sprassignment/materialize.min.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <body>
+
+    <nav>
+        <div class="nav-wrapper teal">
+          <a href="#" class="brand-logo  center">Assignment III </a>
+
+        </div>
+    </nav>
+<style>
+    img{
+        height: 20rem !important;
+    }
+    .col{
+        height: 20rem !important;
+    }
+</style>
+
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col col m6"> -->
+                <div class="card z-depth-0 col m6 l6">
+                    <div class="card-image hoverable waves-effect waves-block waves-light">
+                      <img class="activator " src="https://s3.au-syd.cloud-object-storage.appdomain.cloud/sprassignment/fantasy-2861107.jpg">
+                    </div>
+                  </div>
+
+                  <div class="card col z-depth-0 m6 l6">
+                    <div class="card-image hoverable waves-effect waves-block waves-light">
+                      <img class="activator " src="https://s3.au-syd.cloud-object-storage.appdomain.cloud/sprassignment/john-towner-JgOeRuGD_Y4-unsplash.jpg">
+                    </div>
+                  </div>
+
+                  <div class="card col m6 l6 z-depth-0">
+                    <div class="card-image hoverable waves-effect waves-block waves-light">
+                      <img class="activator " src="https://s3.au-syd.cloud-object-storage.appdomain.cloud/sprassignment/jonatan-pie-h8nxGssjQXs-unsplash.jpg">
+                    </div>
+                  </div>
+
+                  <div class="card col m6 l6 z-depth-0">
+                    <div class="card-image  hoverable waves-effect waves-block waves-light">
+                      <img class="activator " src="https://s3.au-syd.cloud-object-storage.appdomain.cloud/sprassignment/nature-3082832.jpg">
+                    </div>
+                  </div>
+
+                  <div class="card col m6 offset-m3 offset-l3 l6 z-depth-0">
+                    <div class="card-image hoverable waves-effect waves-block waves-light">
+                      <img class="activator " src="https://s3.au-syd.cloud-object-storage.appdomain.cloud/sprassignment/pexels-eberhard-grossgasteiger-1612351.jpg">
+                    </div>
+                  </div>
+            <!-- </div> -->
+        </div>
+    </div>
+
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "cdfd03c8-a733-4b80-91cb-f2f1e34bda17", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "ab9b9683-d04e-4af9-92ed-50ce38ac0c8c", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+</body>
+</html>
