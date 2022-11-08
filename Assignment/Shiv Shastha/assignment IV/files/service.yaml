@@ -1,0 +1,13 @@
+# sevice.ymal file
+
+apiVersion: v1
+kind: Service
+metadata:
+  name : jobportal
+spec:
+  ports:
+  - port: 5000
+    # targetPort: 5000
+  type: NodePort
+  selector:
+    app: jobportal

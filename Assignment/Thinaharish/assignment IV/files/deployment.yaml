@@ -1,0 +1,23 @@
+
+# Deployment.yaml file
+
+apiVersion: apps/v1
+kind: Deployment
+metadata :
+  name: jobportal
+spec:
+  replicas: 3
+  selector:
+    matchLabels :
+      app: jobportal
+  template:
+    metadata:
+      labels:
+        app: jobportal
+    spec:
+      containers:
+      - name: jobportal
+        image : vasudeha/cadjob
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5000
