@@ -1,7 +1,7 @@
 
 
 # Plasma Donor Application [[Project link]](http://159.122.187.202:31326/)
-![Alt Text](pic/deployed.png)
+![Alt Text](pic/demo.gif)
 
 
 ## **Link for our Project**

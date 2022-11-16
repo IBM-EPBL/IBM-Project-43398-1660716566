@@ -1,7 +1,7 @@
 # IBM-Project-43398-1660716566
 
 # Plasma Donor Application [[Project link]](http://159.122.187.202:31326/)
-![Alt Text](Project-Developement-Phase/sprint-4/pic/deployed.png)
+![Alt Text](Project-Developement-Phase/sprint-4/pic/demo.gif)
 
 
 ## **Link for our Project**
@@ -84,23 +84,17 @@ SNS COLLEGE OF TECHNOLOGY
 ### **Frontend:**
 
  <img src= 'Assignment/. badages/html.png' width="100" style='padding-left:25px; position:relative; top:10px;'/>
-<br>
-<br>
 
 ### **Backend:**
 
 <img src='Assignment/. badages/python.png' width="100" style='padding-left:5px;position:relative; top:10px;'/>
 <img src='Assignment/. badages/flask.png' width="100" style='padding-left:5px;position:relative; top:10px;'/>
 
-<br>
-
 
 ### **IT Operations :**
 
- <img src='Assignment/. badages/docker.png' width="100" style='padding-left:5px;position:relative; top:15px;'/>
+<img src='Assignment/. badages/docker.png' width="100" style='padding-left:5px;position:relative; top:15px;'/>
 <img src='Assignment/. badages/kubernetes.png' width="100" style='padding-left:5px;position:relative; top:15px;'/>
-
-<br>
 
 ### **Database:**
 
