@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<body>
+    <nav>
+        <div class="nav-wrapper red">
+
+            <a href="#" class="brand-logo  center">Plasma Donor </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row inf">
+            <div class="col  card-panel green lighten-5 s6 offset-s5">
+                <div class="con">
+
+                    <h4 class="green-text">Your Request has been Processed !</h4>
+                    <h5 class="green-text">You will be redirected to the dashboard if not click the back to dashboard button</h5>
+                </div>
+                    <div class="row center">
+
+                    <a class="btn  green" href="{{url_for('dashboard')}}">Back to Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<style>
+.inf{
+    position: absolute;
+top: 50%;
+/* right: 10%; */
+transform: translate(0, -50%);
+/* border: 5px solid #FFFF00; */
+padding: 10px;
+}
+.card{
+        border-radius: 6rem;
+        /* align-items: center; */
+    }
+    .con{
+        /* border-radius: 2rem; */
+        /* margin:rem;
+         */
+         padding: 3rem;
+    }
+</style>
+<script >
+setTimeout(function(){
+    window.location.href = "{{ url_for('dashboard')}}";
+    }, 7000);
+</script>
+</html>

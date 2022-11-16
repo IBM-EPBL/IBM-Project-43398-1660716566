@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlasmaDonor</title>
+
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+
+<body>
+    <nav>
+        <div class="nav-wrapper red">
+          <a href="#" class="brand-logo  center">Plasma Donor </a>
+
+        </div>
+      </nav>
+      <br><br><br>
+
+  <div class="row">
+    <div class="col s12 offset-m4 m4">
+      <div class="card-panel hoverable ">
+        <span class="card-title center  "><h4>Admin-Login</h4></span>
+
+        <div class="row">
+            <form class="col s12" method="POST" action="">
+              <div class="row">
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <!-- <input id="username" type="number" class="validate">
+                  <label for="username">Age</label> -->
+                  {{ form.username }}
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <!-- <input id="qualification" type="text" class="validate">
+                  <label for="email">Qualification</label> -->
+                  {{ form.password }}
+                </div>
+              </div>
+
+
+                    <!-- <a class="col offset-s3 s6"href="{{ url_for('register') }}">Don't have an account? Sign Up</a> -->
+<br><br>
+              <div class="row">
+                <div class="col offset-m5 offset-s4 s6 m6">
+                    <button class="btn red " type="submit"> submit </button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+
+          {%if error %}
+
+          {% for i in  error %}
+          <p><script>M.toast({html:"user/password invalid"})</script></p>
+          {%endfor%}
+        {%endif%}
+
+
+
+        </div>
+      </div>
+      <!-- <a class="btn" onclick="M.toast({html: 'I am a toast',})">Toast!</a> -->
+  </div>
+</body>
+</html>
