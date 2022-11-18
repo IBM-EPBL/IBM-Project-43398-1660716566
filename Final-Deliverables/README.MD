@@ -20,16 +20,10 @@ During the COVID 19 crisis, the requirement of plasma became a high priority and
 http://159.122.187.202:31326/
 ```
 
-## Our Workspace
-![Alt text](pic/workspace.png)
-
-
-## BurnDown.
-![Alt text](pic/burndown-chart.png)
-
-
 
 ## To Run this Applicaiton locally
+    git clone https://github.com/IBM-EPBL/IBM-Project-43398-1660716566.git
+    cd IBM-Project-43398-1660716566
     python app.py
 
 ## To pull my Docker Image.
@@ -37,3 +31,5 @@ http://159.122.187.202:31326/
 
 ## To make the changes in the production.
     make update-production
+
+This commad is for most efficient way for updating your changes in production environments by make it the changes in to re-buliding the docker image in au.icr.io/value/pda:latest and Making the Kubernetes pod to restart.

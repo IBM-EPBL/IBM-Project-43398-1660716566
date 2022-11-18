@@ -1,5 +1,5 @@
 import getpass
-from CURD import get_admin_by_username , add_admin ,connect_db
+from CURD import connect_db , get_admin_by_username , add_admin
 from app import bcrypt
 
 def create_admin():
@@ -22,6 +22,7 @@ def create_admin():
             break
         else:
             print("Password mismatch")
+
 
 if __name__ == "__main__":
     create_admin()
