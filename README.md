@@ -79,6 +79,11 @@ SNS COLLEGE OF TECHNOLOGY
 - [Sprint - 3](Project-Developement-Phase/sprint-3/)
 - [Sprint - 4](Project-Developement-Phase/sprint-4/)
 
+## Final Deliverables :
+- [Code](Final-Deliverables/Code/)
+- [REPORT](Final-Deliverables/REPORT.pdf)
+- [Demostration Video](https://drive.google.com/drive/folders/1hwOvRnJXUGaU3UjU91FJOkf5zS4-X_3Q)
+
 ## **Tech Stack**
 
 ### **Frontend:**
