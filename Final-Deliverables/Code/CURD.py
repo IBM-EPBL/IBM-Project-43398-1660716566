@@ -7,7 +7,7 @@ from sendgrid.helpers.mail import Mail
 
 # def connect_to_db():
 db2=''
-SENDGRID = "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"
+SENDGRID = "SG.vwdM4_lZTc6mD0FrOqVgrA.gm4cNNKsEovlfiUP_BLrer1A2twS5YGZMxnLgR_rF8kajk"
 
 class Dict2Class(UserMixin):
 
