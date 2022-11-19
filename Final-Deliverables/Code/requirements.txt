@@ -1,0 +1,6 @@
+Flask
+Flask-Login
+Flask-Bcrypt
+Flask-Wtf
+ibm_db
+sendgrid
